@@ -1,0 +1,2 @@
+from app_tracking_location.views import user_api
+from app_tracking_location.views import history_api
