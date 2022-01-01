@@ -12,7 +12,7 @@
         android:label="tracking_location_v3">
         <meta-data
             android:name="vn.map4d.map.ACCESS_KEY"
-            android:value="72d705b610d960ecb2951fb94bbbe373"/>
+            android:value="aa56b775c0ef630c73c8cd53a7882872"/>
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

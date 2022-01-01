@@ -40,32 +40,6 @@ class Map4dSample extends StatefulWidget {
 class _Map4dSampleState extends State<Map4dSample> {
   Completer<MFMapViewController> _controller = Completer();
   bool _is3dMode = false;
-  //
-  // final MFCameraPosition _kInitialCameraPosition = MFCameraPosition(
-  //     target: MFLatLng(10.794630856464138, 106.72229460050636), zoom: 16);
-  //
-  // final MFMarker marker = MFMarker(
-  //   consumeTapEvents: true,
-  //   markerId: MFMarkerId('marker_id_0'),
-  //   position: MFLatLng(10.794630856464138, 106.72229460050636),
-  //   anchor: Offset(0.5, 1.0),
-  //   infoWindow: MFInfoWindow(
-  //       snippet: "Snippet",
-  //       title: "Map4D",
-  //       anchor: const Offset(0.5, 0.0),
-  //       onTap: () {}),
-  //   zIndex: 1.0,
-  // );
-  // final MFCircle circle = MFCircle(
-  //     circleId: MFCircleId('circle_id_0'),
-  //     consumeTapEvents: true,
-  //     strokeColor: Colors.orange,
-  //     fillColor: Colors.orange,
-  //     strokeWidth: 5,
-  //     center: MFLatLng(10.794630856464138, 106.72229460050636),
-  //     radius: 50,
-  //     onTap: () {});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -90,17 +64,6 @@ class _Map4dSampleState extends State<Map4dSample> {
             zIndex: 1.0,
           )
         },
-        // circles: {
-        //   MFCircle(
-        //       circleId: MFCircleId('circle_id_0'),
-        //       consumeTapEvents: true,
-        //       strokeColor: Colors.orange,
-        //       fillColor: Colors.orange,
-        //       strokeWidth: 5,
-        //       center: MFLatLng(double.parse(widget.lat), double.parse(widget.lng)),
-        //       radius: 50,
-        //       onTap: () {})
-        // },
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _switch3dMode,
